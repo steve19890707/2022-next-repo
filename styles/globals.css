@@ -1,7 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import "./about.css";
+@import "./hyper.css";
+@import "./errorPage.css";
+@import "./nprogress.css";
 
 .bg-bottom {
   @apply bg-main-bottom min-h-[calc(100vh-40px)] 
@@ -17,6 +20,10 @@
 
 .title {
   @apply bg-main text-white w-full p-4 flex justify-center items-center text-2xl font-semibold
+}
+
+.btn {
+  @apply mx-5 py-[8px] px-[12px] bg-yellow-400 rounded-lg flex justify-center items-center text-yellow-900
 }
 
 .icon {
